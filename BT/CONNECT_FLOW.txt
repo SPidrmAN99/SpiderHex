@@ -1,0 +1,17 @@
+CONNECT
+↓
+CLIENT_READY  ─────────▶
+              SERVER_READY
+              MENU
+              SERVER_IDLE
+↓
+(prompt enabled)
+
+USER CMD ─────────────▶
+              SERVER_BUSY
+              (script runs)
+              output...
+              SERVER_IDLE
+              MENU
+↓
+(prompt enabled again)

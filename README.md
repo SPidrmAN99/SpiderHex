@@ -19,3 +19,27 @@ The laptop client uses Python with `bleak`. It scans for the BLE device named `S
 ## Commands
 
 The V5 client sends `1` forward, `2` backward, `3` left, `4` right, `5` reset, and `6` stop. These commands are still experimental.
+
+## Project gallery
+
+### Robot prototype
+
+<img src="docs/images/assembled-spiderhex-prototype.png" alt="Assembled Spider-Hex prototype with ESP32 and servo wiring" width="420">
+
+<img src="docs/images/team-engraved-top-plate.png" alt="Engraved Spider-Hex top plate" width="420">
+
+### CAD design
+
+<img src="docs/images/leg-gearbox-cad-render.png" alt="CAD render of the Spider-Hex leg gearbox and linkage" width="520">
+
+<img src="docs/images/leg-joint-cad-render.png" alt="CAD render of a Spider-Hex leg joint and gear" width="520">
+
+### Mobile controller
+
+These screenshots show the Android controller connecting over BLE and issuing movement and servo-reset commands.
+
+<img src="docs/images/mobile-controller-ble-connected.jpg" alt="Mobile app showing a successful BLE connection and motion controls" width="260">
+
+<img src="docs/images/mobile-controller-left-turn.jpg" alt="Mobile app issuing a left-turn command" width="260">
+
+<img src="docs/images/mobile-controller-servo-reset.jpg" alt="Mobile app issuing a servo-reset command" width="260">

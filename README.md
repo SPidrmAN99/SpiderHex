@@ -159,4 +159,3 @@ Copy the files under `BT/ESP32 side/V5/` to the ESP32 while preserving the `core
 ---
 
 <p align="center"><sub>Spider-Hex Mk I · A work in progress, one leg at a time.</sub></p>
-

@@ -36,47 +36,47 @@ Spider-Hex is a six-legged hexapod platform exploring custom geared leg mechanis
 
 ## Build videos
 
-Select a preview or its **Watch clip** link to open the MP4. The clips capture design, part fabrication, assembly, and bench work.
+The short GIF previews loop right here in the README. Use **Full MP4** to open the original clip.
 
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="docs/videos/printed-gear-components.mp4"><img src="docs/videos/thumbs/printed-gear-components.jpg" alt="Video preview: printed gear components" width="100%"></a><br>
-      <strong>Printed gear components</strong><br><a href="docs/videos/printed-gear-components.mp4">▶ Watch clip · 3 sec</a>
+      <img src="docs/videos/previews/printed-gear-components.gif" alt="Looping video preview: printed gear components" width="100%"><br>
+      <strong>Printed gear components</strong><br><a href="docs/videos/printed-gear-components.mp4">▶ Full MP4 · 3 sec</a>
     </td>
     <td width="50%" align="center">
-      <a href="docs/videos/linkage-assembly.mp4"><img src="docs/videos/thumbs/linkage-assembly.jpg" alt="Video preview: leg linkage assembly" width="100%"></a><br>
-      <strong>Leg linkage assembly</strong><br><a href="docs/videos/linkage-assembly.mp4">▶ Watch clip · 4 sec</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="docs/videos/workbench-prototype.mp4"><img src="docs/videos/thumbs/workbench-prototype.jpg" alt="Video preview: Spider-Hex prototype on workbench" width="100%"></a><br>
-      <strong>Prototype on the workbench</strong><br><a href="docs/videos/workbench-prototype.mp4">▶ Watch clip · 4 sec</a>
-    </td>
-    <td width="50%" align="center">
-      <a href="docs/videos/cad-model-walkthrough.mp4"><img src="docs/videos/thumbs/cad-model-walkthrough.jpg" alt="Video preview: CAD model walkthrough" width="100%"></a><br>
-      <strong>CAD model walkthrough</strong><br><a href="docs/videos/cad-model-walkthrough.mp4">▶ Watch clip · 4 sec</a>
+      <img src="docs/videos/previews/linkage-assembly.gif" alt="Looping video preview: leg linkage assembly" width="100%"><br>
+      <strong>Leg linkage assembly</strong><br><a href="docs/videos/linkage-assembly.mp4">▶ Full MP4 · 4 sec</a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="docs/videos/printed-parts-closeup.mp4"><img src="docs/videos/thumbs/printed-parts-closeup.jpg" alt="Video preview: close-up of printed parts" width="100%"></a><br>
-      <strong>Printed parts close-up</strong><br><a href="docs/videos/printed-parts-closeup.mp4">▶ Watch clip · 3 sec</a>
+      <img src="docs/videos/previews/workbench-prototype.gif" alt="Looping video preview: Spider-Hex prototype on the workbench" width="100%"><br>
+      <strong>Prototype on the workbench</strong><br><a href="docs/videos/workbench-prototype.mp4">▶ Full MP4 · 4 sec</a>
     </td>
     <td width="50%" align="center">
-      <a href="docs/videos/cad-design-review.mp4"><img src="docs/videos/thumbs/cad-design-review.jpg" alt="Video preview: CAD design review" width="100%"></a><br>
-      <strong>CAD design review</strong><br><a href="docs/videos/cad-design-review.mp4">▶ Watch clip · 4 sec</a>
+      <img src="docs/videos/previews/cad-model-walkthrough.gif" alt="Looping video preview: CAD model walkthrough" width="100%"><br>
+      <strong>CAD model walkthrough</strong><br><a href="docs/videos/cad-model-walkthrough.mp4">▶ Full MP4 · 4 sec</a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="docs/videos/hardware-prototype-session.mp4"><img src="docs/videos/thumbs/hardware-prototype-session.jpg" alt="Video preview: hardware prototype session" width="100%"></a><br>
-      <strong>Hardware prototype session</strong><br><a href="docs/videos/hardware-prototype-session.mp4">▶ Watch clip · 45 sec</a>
+      <img src="docs/videos/previews/printed-parts-closeup.gif" alt="Looping video preview: close-up of printed parts" width="100%"><br>
+      <strong>Printed parts close-up</strong><br><a href="docs/videos/printed-parts-closeup.mp4">▶ Full MP4 · 3 sec</a>
     </td>
     <td width="50%" align="center">
-      <a href="docs/videos/electronics-assembly.mp4"><img src="docs/videos/thumbs/electronics-assembly.jpg" alt="Video preview: electronics assembly" width="100%"></a><br>
-      <strong>Electronics assembly</strong><br><a href="docs/videos/electronics-assembly.mp4">▶ Watch clip · 15 sec</a>
+      <img src="docs/videos/previews/cad-design-review.gif" alt="Looping video preview: CAD design review" width="100%"><br>
+      <strong>CAD design review</strong><br><a href="docs/videos/cad-design-review.mp4">▶ Full MP4 · 4 sec</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/videos/previews/hardware-prototype-session.gif" alt="Looping video preview: hardware prototype session" width="100%"><br>
+      <strong>Hardware prototype session</strong><br><a href="docs/videos/hardware-prototype-session.mp4">▶ Full MP4 · 45 sec</a>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/videos/previews/electronics-assembly.gif" alt="Looping video preview: electronics assembly" width="100%"><br>
+      <strong>Electronics assembly</strong><br><a href="docs/videos/electronics-assembly.mp4">▶ Full MP4 · 15 sec</a>
     </td>
   </tr>
 </table>
@@ -154,7 +154,7 @@ Copy the files under `BT/ESP32 side/V5/` to the ESP32 while preserving the `core
 | `BT/Laptop side/` | Laptop BLE clients |
 | `Control_Logic/` | Gait and control reference documents |
 | `docs/images/` | Build photos, CAD renders, and controller screenshots |
-| `docs/videos/` | Original MP4 progress clips and README preview thumbnails |
+| `docs/videos/` | Original MP4 clips and looping inline GIF previews |
 
 ---
 

@@ -1,0 +1,9 @@
+green-sda-d21 yellow
+blue-scl-d22 purple
+black-gnd-gnd
+
+so what's happening right now is that a few motors are getting signals to move more than they can, so I want you to add one more segment in which each motor is set to zero position at start so that it can rotate +-90deg, everytime I run the code, also this time only move tripod A forward then wait 2 second then move tripod A backwards, I am using sg90 servo motor, also do not add any instance of tripod B in the code rn, but keep the servo mapping same
+
+I have micropyton code which is working fine via USB as COM port, now I want to execute same code over BT which is pushed in ESP32.
+
+Kikuchi, F. & Ota, Y. & Hirose, S.. (2003). Basic performance experiments for jumping quadruped. 3378 - 3383 vol.3. 10.1109/IROS.2003.1249678.

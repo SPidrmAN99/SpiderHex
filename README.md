@@ -96,7 +96,7 @@ The short GIF previews loop right here in the README. Use **Full MP4** to open t
 
 ## Control interface
 
-The screenshots below show the Android BLE controller used during earlier prototype iterations. The Android app itself is not included in this repository.
+The screenshots show the Android BLE controller included in `Android/SpiderHexController/`.
 
 <table>
   <tr>
@@ -108,7 +108,7 @@ The screenshots below show the Android BLE controller used during earlier protot
 
 ## Firmware & control code
 
-The repo contains multiple iterations. The current modular **V5** snapshot is experimental and is included as a development reference.
+The repository preserves several firmware iterations. Modular **V5** is an experimental development reference; V4 and V6 snapshots are also included.
 
 ### Hardware assumptions in V5
 
@@ -146,14 +146,41 @@ Copy the files under `BT/ESP32 side/V5/` to the ESP32 while preserving the `core
 
 > **Prototype limitation:** V5 runs its gait loop synchronously. While it is moving, it cannot process another BLE command or refresh the obstacle-distance reading. Treat V5 as a code reference only; do not rely on `STOP` or obstacle avoidance as safety controls.
 
+
+
+## Android BLE controller
+
+The native Android controller is a Kotlin and Jetpack Compose app. It scans for the `Spider-Hex` BLE device, connects to its UART-style service, sends movement commands, and displays server messages.
+
+Open `Android/SpiderHexController/` in Android Studio and run the app on an Android device running API 31 or later. The repository includes the Gradle wrapper; machine-specific `local.properties` is intentionally omitted.
+
+> **Firmware compatibility:** This app is from an earlier firmware iteration. It looks for a `SERVER_READY` response, while the experimental V5 firmware currently replies with `SERVER READY`. Align the protocol before pairing the Android app with V5.
+
+## CAD and hardware references
+
+`CAD/` now contains the Blender leg model, the editable Fusion 360 bevel model, DXF base drawings, and versioned STL print exports for V1–V3. See [`CAD/README.md`](CAD/README.md) for the file map. Circuit pinouts, battery and sensor references, the SG90 dimension sheet, and the original app-interface artwork are under `docs/`.
+
+The project workbook is available as [`SpiderHex project plan v3`](docs/SpiderHex-project-plan-v3.xlsx).
+
+## Additional firmware snapshots
+
+Alongside the V5 prototype, `BT/ESP32 side/V4/` and `V6/` preserve older iteration files and an uploaded V4 snapshot. `BT/Diagnostics/` contains servo, motor, I²C, reset, and gait experiments. The two same-name source variants that differed from the existing repository files are preserved under `BT/Source snapshots/` rather than replacing the tracked versions.
+
 ## Repository map
 
 | Path | Contents |
 |:--|:--|
-| `BT/ESP32 side/` | ESP32 BLE server and motion firmware, including the modular V5 prototype |
+| `BT/ESP32 side/` | ESP32 BLE firmware, V4–V6 snapshots, and modular V5 prototype |
 | `BT/Laptop side/` | Laptop BLE clients |
+| `BT/Diagnostics/` | Motor, servo, sensor, and connectivity experiments |`n| `BT/Source snapshots/` | Alternate source-folder versions preserved for comparison |
+| `Android/SpiderHexController/` | Kotlin/Compose Android BLE controller source |
+| `CAD/` | Blender, Fusion 360, DXF, and V1–V3 STL files |
 | `Control_Logic/` | Gait and control reference documents |
 | `docs/images/` | Build photos, CAD renders, and controller screenshots |
+| `docs/hardware/` | Wiring diagrams and component references |
+| `docs/app-design/` | Earlier app-interface artwork |
+| `docs/branding/` | Spider-Hex app logo source |
+| `docs/SpiderHex-project-plan-v3.xlsx` | Project plan workbook |
 | `docs/videos/` | Original MP4 clips and looping inline GIF previews |
 
 ---

@@ -1,2 +1,11 @@
 __pycache__/
 *.py[cod]
+.gradle/
+**/build/
+.idea/
+local.properties
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.blend1

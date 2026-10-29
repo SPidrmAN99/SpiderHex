@@ -13,18 +13,18 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/assembled-spiderhex-prototype.png" alt="Spider-Hex prototype with ESP32 and servo wiring" width="620">
+  <img src="docs/images/final-design-cad.jpg" alt="CAD concept for the final Spider-Hex design, showing six geared legs around the central body" width="700">
 </p>
 
 <p align="center">
-  <em>Spider-Hex Mk I — prototype electronics and six-servo-leg mechanism.</em>
+  <strong>Final design direction — six geared legs around a compact central body.</strong><br><sub><a href="docs/images/final-design-fusion-screenshot.png">Open the original Fusion screenshot</a></sub>
 </p>
 
 ---
 
 ## The project
 
-Spider-Hex is a six-legged quadruped-style robot platform exploring custom geared leg mechanisms and wireless movement control. The repository brings together ESP32 firmware, BLE clients, control notes, CAD renders, build photos, and progress videos.
+Spider-Hex is a six-legged hexapod platform exploring custom geared leg mechanisms and wireless movement control. The repository brings together ESP32 firmware, BLE clients, control notes, CAD renders, build photos, and progress videos.
 
 | At a glance |  |
 |:--|:--|
@@ -159,3 +159,4 @@ Copy the files under `BT/ESP32 side/V5/` to the ESP32 while preserving the `core
 ---
 
 <p align="center"><sub>Spider-Hex Mk I · A work in progress, one leg at a time.</sub></p>
+
